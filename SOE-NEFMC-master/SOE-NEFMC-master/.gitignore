@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.pdf
+*.log
+*.txt
+*.html
+Rplot.png
+Rplot01.png
+.DS_Store
+*.upa
+*.upb
