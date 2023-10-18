@@ -1,22 +1,15 @@
 ---
-title: "Caribbean ESR"
-csl: plos.csl
-fontsize: 10pt
-output:
-  bookdown::pdf_document2:
-    includes:
-      in_header: SOE-NEFMC-master/SOE-NEFMC-master/latex/header1.tex
-    keep_tex: yes
-    toc: false
-    number_sections: false
-  bookdown::word_document2:
-    toc: false
-  bookdown::html_document2: 
-    df_print: paged
-    includes:
-      in_header: SOE-NEFMC-master/SOE-NEFMC-master/latex/header1.tex
-#format: html
-#editor: visual
+title: "Report2"
+format: 
+  pdf:
+    include-in-header: SOE-NEFMC-master/SOE-NEFMC-master/latex/header1.tex
+    titlepage: bg-image
+#      text: |
+ #       \usepackage{fancyhdr}
+  #      \pagestyle{fancy}
+   #     \fancyhead[C]{Header text}
+    #    \fancyfoot[L]{Footer text}
+editor: visual
 execute:
   echo: false
 ---
@@ -53,3 +46,4 @@ Here is the gini index showing equality in distribution of revenues....
 load("indicator_objects/gini.RData")
 plotIndicatorTimeSeries(inddata, coltoplot = 1:2, plotrownum = 2, trendAnalysis = F, sublabel = T)
 ```
+
