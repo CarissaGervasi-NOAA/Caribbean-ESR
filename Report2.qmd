@@ -3,12 +3,11 @@ title: "Report2"
 format: 
   pdf:
     include-in-header: SOE-NEFMC-master/SOE-NEFMC-master/latex/header1.tex
-    titlepage: bg-image
-#      text: |
- #       \usepackage{fancyhdr}
-  #      \pagestyle{fancy}
-   #     \fancyhead[C]{Header text}
-    #    \fancyfoot[L]{Footer text}
+    text: |
+      \usepackage{fancyhdr}
+      \pagestyle{fancy}
+      \fancyhead[C]{Header text}
+      \fancyfoot[L]{Footer text}
 editor: visual
 execute:
   echo: false

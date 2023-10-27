@@ -1,0 +1,28 @@
+---
+title: Ecosystem Status Report for the Caribbean
+author: Kelly Montenero, Mandy Karnauskas, Seann Regan, Amy Freitag, Andrea Chan, Chuanmin Hu, Erica K. Towle, Laura Jay Grove, Jeremiah Blondeau, Sarah Groves, Shay Viehman, and Nicole Besemer
+format: 
+  titlepage-pdf:
+    documentclass: scrbook
+    classoption: ["oneside", "open=any"]
+    number-sections: true
+    toc: true
+    lof: true
+    lot: true
+    titlepage: "bg-image"
+    titlepage-logo: "images/NOAA_logo.png"
+    titlepage-header: "The Publisher"
+    titlepage-footer: |
+      NOAA Fisheries OpenSci\
+      Tools for Open Science\
+      [https://github.com/nmfs-opensci](https://github.com/nmfs-opensci)\
+    keep-tex: true
+---
+
+
+## YAML additions for themes
+
+Some themes need some additional YAML information to work.
+
+
+
